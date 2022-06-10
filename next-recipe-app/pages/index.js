@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home({data}) {
 
+  const recipes = data.recipes;
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +16,7 @@ export default function Home({data}) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">{recipes[0].title}</a>
         </h1>
 
         <p className={styles.description}>
