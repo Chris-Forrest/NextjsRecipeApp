@@ -5,6 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import chef from "./chef"
 import ingredient from './ingredients'
+import recipe from "./recipe"
 
 
 
@@ -19,5 +20,6 @@ export default createSchema({
     /* Your types here! */
     chef,
     ingredient,
+    recipe,
   ]),
 })
