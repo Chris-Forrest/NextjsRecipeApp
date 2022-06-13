@@ -7,6 +7,7 @@ import chef from "./chef"
 
 
 
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -16,7 +17,5 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     chef,
-
-
   ]),
 })
