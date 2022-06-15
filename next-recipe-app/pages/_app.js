@@ -4,7 +4,7 @@ import Link from 'next/link';
 function MyApp({ Component, pageProps }) {
   return (
   <>
-   <nav>
+   <nav className='header'>
      <div>
       <Link href="/">
         <a>Kap's Kitchen</a>
